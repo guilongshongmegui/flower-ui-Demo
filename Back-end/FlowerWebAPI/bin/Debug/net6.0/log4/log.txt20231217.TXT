@@ -1,0 +1,61 @@
+2023-12-17 10:40:05,942 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 10:40:05,962 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 10:40:05,963 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 10:40:05,965 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 10:40:35,013 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 10:40:35,034 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 10:40:35,036 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 10:40:35,038 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 10:42:02,091 [34] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-17 10:42:02,419 [34] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="".
+English Message : Connection open error . The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="" 
+2023-12-17 10:42:02,420 [38] INFO  FlowerWebAPI.Controllers.OrderController - this is 获取鲜花列表 GetFlowerType run ......……………………………….........中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="".
+English Message : Connection open error . The connection was not closed. The connection's current state is connecting.DbType="SqlServer";ConfigId="" 
+2023-12-17 11:04:26,685 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 11:04:26,705 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 11:04:26,706 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 11:04:26,708 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 14:46:22,343 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 14:46:22,363 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 14:46:22,365 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 14:46:22,366 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 14:46:40,247 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-17 14:46:40,866 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-17 14:46:49,047 [13] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'SendMessage'.
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FlowerWebAPI.Hubs.ChatHub.SendMessage(String user) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 21
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-17 14:47:55,802 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 14:47:55,821 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 14:47:55,823 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 14:47:55,824 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 14:50:47,849 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-17 14:50:48,371 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-17 14:53:07,869 [31] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-17 14:53:07,879 [31] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-17 17:21:26,923 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 17:21:26,942 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 17:21:26,944 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 17:21:26,945 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 17:22:45,077 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 17:22:45,096 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 17:22:45,098 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 17:22:45,100 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 17:27:10,739 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 17:27:10,758 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 17:27:10,760 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 17:27:10,761 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 17:27:40,383 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 17:27:40,403 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 17:27:40,405 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 17:27:40,406 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 18:11:23,329 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 18:11:23,349 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 18:11:23,351 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 18:11:23,352 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-17 18:23:48,338 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-17 18:23:48,364 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-17 18:23:48,374 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-17 18:23:48,376 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\

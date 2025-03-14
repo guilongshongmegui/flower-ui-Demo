@@ -1,0 +1,6 @@
+2024-02-19 17:15:05,596 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2024-02-19 17:15:05,616 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-02-19 17:15:05,618 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-02-19 17:15:05,620 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2024-02-19 17:15:28,773 [9] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2024-02-19 17:15:28,856 [9] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')

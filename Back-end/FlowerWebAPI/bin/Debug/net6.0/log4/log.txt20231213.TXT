@@ -1,0 +1,412 @@
+2023-12-13 13:26:21,728 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 13:26:21,749 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 13:26:21,751 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 13:26:21,752 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 13:28:24,959 [20] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 13:28:25,009 [20] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 13:28:27,968 [20] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 13:28:27,994 [20] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 15:51:00,899 [179] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 15:51:00,949 [179] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 16:09:44,460 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 16:09:44,494 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 16:09:44,496 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 16:09:44,499 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 16:29:02,066 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 16:29:02,105 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 16:29:02,108 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 16:29:02,110 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 17:50:03,299 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 17:50:03,402 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 17:54:37,495 [21] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 17:54:37,521 [21] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 18:53:16,065 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 18:53:16,097 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 18:53:17,817 [277] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 18:53:17,848 [277] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 18:53:47,447 [21] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 18:53:47,472 [21] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 21:09:18,184 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:09:18,204 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:09:18,206 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:09:18,208 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:09:50,228 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:10:28,627 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:10:41,874 [28] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:11:18,824 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:11:29,694 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:13:37,814 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:13:37,834 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:13:37,835 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:13:37,837 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:13:45,374 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:14:26,278 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:14:26,297 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:14:26,299 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:14:26,301 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:14:38,572 [3] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:14:40,946 [3] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:18:42,188 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:18:42,210 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:18:42,212 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:18:42,213 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:19:02,128 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:19:56,291 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:19:56,311 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:19:56,313 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:19:56,315 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:20:18,200 [3] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method490(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:21:15,230 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:21:15,251 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:21:15,255 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:21:15,257 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:21:23,322 [17] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.UserFriendController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:22:59,342 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:22:59,362 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:22:59,364 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:22:59,365 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:23:00,493 [3] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Friends" for actions - FlowerWebAPI.Controllers.FriendsController.Getfriends (FlowerWebAPI),FlowerWebAPI.Controllers.FriendsController.GetInd (FlowerWebAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:24:48,801 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:24:48,820 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:24:48,821 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:24:48,823 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:25:22,106 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:25:22,126 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:25:22,128 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:25:22,129 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:25:31,355 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.FriendsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:26:20,919 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:26:20,938 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:26:20,940 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:26:20,942 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:26:26,198 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.FriendsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:28:36,733 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:28:36,753 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:28:36,754 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:28:36,764 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:28:41,622 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FlowerService.Friends.IFriendServer' while attempting to activate 'FlowerWebAPI.Controllers.FriendsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method483(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-13 21:30:38,188 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:30:38,207 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:30:38,209 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:30:38,210 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:39:19,975 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:39:19,998 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:39:20,000 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:39:20,022 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:41:26,921 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:41:26,946 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:41:26,948 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:41:26,950 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:51:37,779 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 21:51:37,798 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 21:51:37,799 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 21:51:37,801 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 21:51:45,101 [8] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 21:51:45,171 [8] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 22:07:42,985 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 22:07:43,004 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 22:07:43,006 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 22:07:43,010 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 22:27:38,584 [133] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-13 22:27:38,616 [133] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-13 22:29:01,501 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 22:29:01,521 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 22:29:01,523 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 22:29:01,525 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 22:30:26,231 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 22:30:26,250 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 22:30:26,252 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 22:30:26,253 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 22:56:15,267 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 22:56:15,287 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 22:56:15,288 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 22:56:15,290 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 22:58:54,998 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 22:58:55,019 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 22:58:55,021 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 22:58:55,022 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:00:07,980 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:00:07,999 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:00:08,001 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:00:08,002 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:00:51,131 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:00:51,152 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:00:51,154 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:00:51,155 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:01:26,602 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:01:26,622 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:01:26,624 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:01:26,626 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:05:22,803 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:05:22,823 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:05:22,825 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:05:22,827 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:07:09,723 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:07:09,743 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:07:09,745 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:07:09,747 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:07:35,338 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:07:35,358 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:07:35,360 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:07:35,362 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:09:09,917 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:09:09,937 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:09:09,939 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:09:09,941 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:10:42,334 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:10:42,353 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:10:42,354 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:10:42,356 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:12:09,705 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:12:09,724 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:12:09,726 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:12:09,727 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-13 23:12:30,250 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-13 23:12:30,272 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-13 23:12:30,273 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-13 23:12:30,275 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\

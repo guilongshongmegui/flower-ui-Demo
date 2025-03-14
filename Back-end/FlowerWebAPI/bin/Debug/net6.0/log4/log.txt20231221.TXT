@@ -1,0 +1,16 @@
+2023-12-21 11:31:33,766 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-21 11:31:33,808 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-21 11:31:33,811 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-21 11:31:33,814 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-21 12:57:03,506 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-21 12:57:03,542 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-21 12:57:03,544 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-21 12:57:03,545 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-21 12:57:23,519 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-21 12:57:23,540 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-21 12:57:23,543 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-21 12:57:23,544 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-21 12:58:42,648 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-21 12:58:42,667 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-21 12:58:42,668 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-21 12:58:42,670 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\

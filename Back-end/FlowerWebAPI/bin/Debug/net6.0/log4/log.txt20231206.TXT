@@ -1,0 +1,68 @@
+2023-12-06 16:02:58,300 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 16:02:58,342 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 16:02:58,344 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 16:02:58,347 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 16:05:55,816 [29] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - 1
+2023-12-06 16:06:20,849 [8] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - 1
+2023-12-06 16:11:37,040 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 16:11:37,096 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 16:11:37,100 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 16:11:37,102 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 16:11:51,186 [3] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 16:12:26,149 [8] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 16:54:43,834 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 16:54:43,867 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 16:54:43,870 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 16:54:43,880 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 16:55:08,485 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 16:55:29,960 [3] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 16:55:50,591 [20] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 16:55:58,900 [20] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 16:56:34,867 [24] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 16:57:15,290 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 16:57:15,323 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 16:57:15,325 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 16:57:15,327 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 16:57:36,874 [8] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 17:18:59,671 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 17:18:59,692 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 17:18:59,693 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 17:18:59,695 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 17:19:07,793 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 17:19:13,360 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 17:19:50,582 [22] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 17:23:47,604 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 17:23:47,626 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 17:23:47,628 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 17:23:47,629 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 17:23:53,374 [16] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 17:24:00,668 [8] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - FlowerService.Messages.Dto.MessageReq
+2023-12-06 17:25:25,201 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 17:25:25,220 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 17:25:25,222 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 17:25:25,224 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 17:25:57,491 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 17:25:57,511 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 17:25:57,513 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 17:25:57,517 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 17:26:06,358 [8] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:Microsoft.AspNetCore.Http.DefaultHttpContext
+2023-12-06 17:26:17,955 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:Microsoft.AspNetCore.Http.DefaultHttpContext
+2023-12-06 17:26:34,045 [8] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:Microsoft.AspNetCore.Http.DefaultHttpContext
+2023-12-06 17:27:01,176 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:Microsoft.AspNetCore.Http.DefaultHttpContext
+2023-12-06 17:27:16,601 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 17:27:16,620 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 17:27:16,621 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 17:27:16,623 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 17:27:32,818 [3] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:Microsoft.AspNetCore.Http.DefaultHttpContext
+2023-12-06 17:27:58,471 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 17:27:58,489 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 17:27:58,491 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 17:27:58,493 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 17:28:04,926 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:Microsoft.AspNetCore.Http.DefaultHttpContext
+2023-12-06 17:28:04,931 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:
+2023-12-06 17:28:40,780 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-06 17:28:40,799 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-06 17:28:40,801 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-06 17:28:40,803 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-06 17:28:56,809 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - kh:
+2023-12-06 17:29:05,975 [5] INFO  FlowerWebAPI.WebSocketServer.WebsocketHandler - Microsoft.AspNetCore.Http.DefaultHttpContext

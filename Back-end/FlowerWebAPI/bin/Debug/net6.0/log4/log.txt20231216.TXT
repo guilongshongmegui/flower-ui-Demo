@@ -1,0 +1,188 @@
+2023-12-16 15:15:36,889 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-16 15:15:36,909 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-16 15:15:36,911 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-16 15:15:36,913 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-16 15:51:37,607 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-16 15:51:37,626 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-16 15:51:37,628 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-16 15:51:37,630 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-16 16:05:54,552 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-16 16:05:54,571 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-16 16:05:54,573 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-16 16:05:54,575 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-16 16:06:01,955 [3] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:06:19,536 [12] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:06:36,663 [12] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:06:36,744 [12] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-16 16:06:39,003 [8] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:06:39,031 [8] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+2023-12-16 16:06:56,003 [13] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:06:56,056 [13] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:06:59,140 [13] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:06:59,147 [13] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:07:05,094 [13] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:07:05,100 [13] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-16 16:07:09,669 [3] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:07:39,380 [3] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:07:58,390 [8] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:08:10,800 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-16 16:08:10,819 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-16 16:08:10,821 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-16 16:08:10,823 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-16 16:08:17,229 [19] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:09:23,814 [8] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:10:24,025 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-16 16:10:24,045 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-16 16:10:24,047 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-16 16:10:24,048 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-16 16:10:31,663 [8] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:12:31,562 [3] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:12:48,382 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-16 16:12:48,401 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-16 16:12:48,403 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-16 16:12:48,404 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-16 16:12:53,041 [8] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2023-12-16 16:15:17,995 [5] ERROR Microsoft.AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowerWebAPI.Hubs.ChatHub'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.<>c.<.cctor>b__6_0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)

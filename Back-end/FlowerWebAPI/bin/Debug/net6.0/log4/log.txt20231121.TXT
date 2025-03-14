@@ -1,0 +1,40 @@
+2023-11-21 09:02:58,472 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-21 09:02:58,835 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-21 09:02:58,845 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-21 09:02:58,849 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-21 09:04:28,286 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-21 09:04:28,614 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-21 09:04:28,623 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-21 09:04:28,629 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-21 09:04:29,951 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - FlowerWebAPI.Controllers.ToolsController.TryInt (FlowerWebAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-21 09:04:42,531 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-21 09:04:42,789 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-21 09:04:42,796 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-21 09:04:42,800 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-21 09:04:44,322 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - FlowerWebAPI.Controllers.ToolsController.TryInt (FlowerWebAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-21 09:05:10,553 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-21 09:05:10,887 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-21 09:05:10,903 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-21 09:05:10,914 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-21 11:22:17,132 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-11-21 11:22:17,372 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-21 11:22:17,379 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-21 11:22:17,389 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-21 17:18:25,872 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-11-21 17:18:26,389 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-21 17:18:26,398 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-21 17:18:26,402 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\

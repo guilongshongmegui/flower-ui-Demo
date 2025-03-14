@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qOQynrRaQg5/cbV8oAhB0P3jZOYE3JgGtoRmQe0q2dG368kusS83XUiWvZ68seZEz5Mi96WXUxX6OVY2Oi+r7w==",
+  "success": true,
+  "projectFilePath": "F:\\NET6Project\\EFdome\\EFdome.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\giu'long\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\giu'long\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\giu'long\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\giu'long\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\giu'long\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\giu'long\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

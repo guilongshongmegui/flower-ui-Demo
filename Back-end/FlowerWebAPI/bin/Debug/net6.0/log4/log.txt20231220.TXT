@@ -1,0 +1,188 @@
+2023-12-20 11:06:55,300 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 11:06:55,322 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 11:06:55,324 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 11:06:55,325 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 17:42:19,105 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 17:42:19,127 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 17:42:19,129 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 17:42:19,130 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 17:52:16,152 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 17:52:16,172 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 17:52:16,174 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 17:52:16,175 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:13:06,795 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:13:06,816 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:13:06,818 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:13:06,819 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:14:26,241 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-20 18:14:26,293 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-20 18:14:38,853 [8] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-20 18:14:38,858 [8] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-20 18:20:16,022 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:20:16,051 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:20:16,052 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:20:16,054 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:24:22,058 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:24:22,078 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:24:22,080 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:24:22,081 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:31:07,322 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:31:07,344 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:31:07,345 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:31:07,347 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:34:46,491 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:34:46,514 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:34:46,516 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:34:46,518 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:41:12,345 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:41:12,366 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:41:12,368 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:41:12,370 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:46:25,615 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:46:25,637 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:46:25,639 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:46:25,640 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:50:30,449 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:50:30,470 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:50:30,472 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:50:30,474 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:54:02,777 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:54:02,797 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:54:02,799 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:54:02,801 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 18:55:08,088 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 18:55:08,108 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 18:55:08,110 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 18:55:08,112 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 19:40:44,492 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 19:40:44,511 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 19:40:44,513 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 19:40:44,514 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 19:45:31,957 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 19:45:31,978 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 19:45:31,980 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 19:45:31,981 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 19:50:04,502 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-20 19:50:04,556 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-20 20:19:30,960 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 20:19:30,994 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 20:19:31,006 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 20:19:31,008 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 20:51:57,804 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 20:51:57,824 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 20:51:57,826 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 20:51:57,827 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 20:56:58,800 [48] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is open.
+   at Microsoft.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at Microsoft.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.First()
+   at SqlSugar.QueryableProvider`1.First(Expression`1 expression)
+   at FlowerService.cids.CIDsService.SaveConntionId(String userId, String connectionId) in F:\NET6ProjectDome\FlowerService\cids\CIDsService.cs:line 24
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 44
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-20 20:57:15,150 [14] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is open.
+   at Microsoft.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at Microsoft.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.First()
+   at SqlSugar.QueryableProvider`1.First(Expression`1 expression)
+   at FlowerService.cids.CIDsService.SaveConntionId(String userId, String connectionId) in F:\NET6ProjectDome\FlowerService\cids\CIDsService.cs:line 24
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 44
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-20 20:58:15,181 [61] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is open.
+   at Microsoft.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at Microsoft.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.First()
+   at SqlSugar.QueryableProvider`1.First(Expression`1 expression)
+   at FlowerService.cids.CIDsService.SaveConntionId(String userId, String connectionId) in F:\NET6ProjectDome\FlowerService\cids\CIDsService.cs:line 24
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 44
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-20 20:58:26,023 [57] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is open.
+   at Microsoft.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at Microsoft.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.First()
+   at SqlSugar.QueryableProvider`1.First(Expression`1 expression)
+   at FlowerService.cids.CIDsService.SaveConntionId(String userId, String connectionId) in F:\NET6ProjectDome\FlowerService\cids\CIDsService.cs:line 24
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 44
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-20 20:59:58,551 [62] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is open.
+   at Microsoft.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at Microsoft.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.First()
+   at SqlSugar.QueryableProvider`1.First(Expression`1 expression)
+   at FlowerService.cids.CIDsService.SaveConntionId(String userId, String connectionId) in F:\NET6ProjectDome\FlowerService\cids\CIDsService.cs:line 24
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 44
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-20 21:00:04,742 [62] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-20 21:00:04,856 [62] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......ExecuteReader requires an open and available Connection. The connection's current state is open.
+2023-12-20 21:01:45,148 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-20 21:01:45,169 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-20 21:01:45,174 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-20 21:01:45,176 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-20 21:04:22,442 [32] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.First()
+   at SqlSugar.QueryableProvider`1.First(Expression`1 expression)
+   at FlowerService.cids.CIDsService.GetConnectionId(String userId) in F:\NET6ProjectDome\FlowerService\cids\CIDsService.cs:line 68
+   at FlowerWebAPI.Hubs.ChatHub.FlushList(String Id) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 107
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 46
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)

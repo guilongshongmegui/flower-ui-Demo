@@ -1,0 +1,80 @@
+2023-12-19 11:37:25,419 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-19 11:37:25,458 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-19 11:37:25,462 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-19 11:37:25,465 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-19 11:37:40,659 [8] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object. (Parameter 'token')
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at FlowerWebAPI.Hubs.ChatHub.GetUserId(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 50
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 33
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-19 11:37:52,979 [8] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object. (Parameter 'token')
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at FlowerWebAPI.Hubs.ChatHub.GetUserId(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 50
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 33
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-19 11:39:29,569 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-19 11:39:29,608 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-19 11:39:29,612 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-19 11:39:29,616 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-19 11:40:52,328 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-19 11:40:52,363 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-19 11:40:52,367 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-19 11:40:52,369 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-19 15:59:11,767 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://[::]:5136
+2023-12-19 15:59:11,804 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-12-19 15:59:11,807 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-12-19 15:59:11,813 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6ProjectDome\FlowerWebAPI\
+2023-12-19 16:10:49,041 [3] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlSugar.SqlDataAdapter.Fill(DataSet ds)
+   at SqlSugar.AdoProvider.GetDataSetAll(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataTable(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataTable(String sql, Object parameters)
+   at FlowerService.Friends.FriendService.GetUserFriends(String SqlString, String Id) in F:\NET6ProjectDome\FlowerService\Friends\FriendService.cs:line 115
+   at FlowerService.Friends.FriendService.ReaderFrientList(String Id) in F:\NET6ProjectDome\FlowerService\Friends\FriendService.cs:line 93
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-19 16:11:41,709 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-12-19 16:11:42,214 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder …… error: ......找不到存储过程 ''。
+2023-12-19 16:34:49,937 [187] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlSugar.SqlDataAdapter.Fill(DataSet ds)
+   at SqlSugar.AdoProvider.GetDataSetAll(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataTable(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataTable(String sql, Object parameters)
+   at FlowerService.Friends.FriendService.GetUserFriends(String SqlString, String Id) in F:\NET6ProjectDome\FlowerService\Friends\FriendService.cs:line 115
+   at FlowerService.Friends.FriendService.ReaderFrientList(String Id) in F:\NET6ProjectDome\FlowerService\Friends\FriendService.cs:line 93
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+2023-12-19 16:36:45,324 [187] ERROR Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher - Failed to invoke hub method 'ReaderFriends'.
+System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at SqlSugar.SqlDataAdapter.Fill(DataSet ds)
+   at SqlSugar.AdoProvider.GetDataSetAll(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataTable(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataTable(String sql, Object parameters)
+   at FlowerService.Friends.FriendService.GetUserFriends(String SqlString, String Id) in F:\NET6ProjectDome\FlowerService\Friends\FriendService.cs:line 115
+   at FlowerService.Friends.FriendService.ReaderFrientList(String Id) in F:\NET6ProjectDome\FlowerService\Friends\FriendService.cs:line 93
+   at FlowerWebAPI.Hubs.ChatHub.ReaderFriends(String tonken) in F:\NET6ProjectDome\FlowerWebAPI\Hubs\ChatHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)

@@ -1,0 +1,25 @@
+2023-11-20 15:22:18,327 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-20 15:22:18,357 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-20 15:22:18,360 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-20 15:22:18,361 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-20 15:22:39,443 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-11-20 15:23:46,784 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-20 15:23:46,803 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-20 15:23:46,805 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-20 15:23:46,807 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-20 15:23:53,153 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-11-20 15:24:34,849 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-20 15:24:34,868 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-20 15:24:34,870 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-20 15:24:34,871 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-20 15:24:40,202 [3] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-11-20 15:28:57,331 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-20 15:28:57,633 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-20 15:28:57,640 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-20 15:28:57,643 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-20 15:29:03,486 [14] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
+2023-11-20 19:23:49,842 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5136
+2023-11-20 19:23:50,157 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-20 19:23:50,164 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-20 19:23:50,166 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\NET6Project\FlowerWebAPI\
+2023-11-20 19:25:06,952 [17] INFO  FlowerWebAPI.Controllers.OrderController - this is GetOrder ......
