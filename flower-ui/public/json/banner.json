@@ -1,0 +1,14 @@
+[
+    {
+        "imageUrl":"/images/banner1.png",
+        "courseUrl":"http://localhost:8080/"
+    },
+    {
+        "imageUrl":"/images/banner2.png",
+        "courseUrl":"http://localhost:8080/"
+    },
+    {
+        "imageUrl":"/images/banner3.png",
+        "courseUrl":"http://localhost:8080/"
+    }
+]
